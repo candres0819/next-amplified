@@ -1,5 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import {
+  NewForm1
+} from './ui-components';
 
 function App() {
   return (
@@ -18,6 +21,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <NewForm1 />
     </div>
   );
 }
